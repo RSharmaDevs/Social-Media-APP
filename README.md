@@ -15,10 +15,7 @@
 
   <h3 align="center">A Social Media Application</h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
+
 
 ## 📋 <a name="table">Table of Contents</a>
 
@@ -30,13 +27,8 @@
 6. 🔗 [Links](#links)
 7. 🚀 [More](#more)
 
-## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/_W3R2VwRyF4?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -85,20 +77,8 @@ and many more, including code architecture and reusability
 
 Follow these steps to set up the project locally on your machine.
 
-**Prerequisites**
 
-Make sure you have the following installed on your machine:
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/social_media_app.git
-cd social_media_app
-```
 
 **Installation**
 
@@ -108,21 +88,8 @@ Install the project dependencies using npm:
 npm install
 ```
 
-**Set Up Environment Variables**
 
-Create a new file named `.env` in the root of your project and add the following content:
 
-```env
-VITE_APPWRITE_URL=
-VITE_APPWRITE_PROJECT_ID=
-VITE_APPWRITE_DATABASE_ID=
-VITE_APPWRITE_STORAGE_ID=
-VITE_APPWRITE_USER_COLLECTION_ID=
-VITE_APPWRITE_POST_COLLECTION_ID=
-VITE_APPWRITE_SAVES_COLLECTION_ID=
-```
-
-Replace the placeholder values with your actual Appwrite credentials. You can obtain these credentials by signing up on the [Appwrite website](https://appwrite.io/).
 
 **Running the Project**
 
@@ -134,61 +101,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ## <a name="snippets">🕸️ Snippets</a>
 
-<details>
-<summary><code>constants.index.ts</code></summary>
 
-```typescript
-export const sidebarLinks = [
-  {
-    imgURL: "/assets/icons/home.svg",
-    route: "/",
-    label: "Home",
-  },
-  {
-    imgURL: "/assets/icons/wallpaper.svg",
-    route: "/explore",
-    label: "Explore",
-  },
-  {
-    imgURL: "/assets/icons/people.svg",
-    route: "/all-users",
-    label: "People",
-  },
-  {
-    imgURL: "/assets/icons/bookmark.svg",
-    route: "/saved",
-    label: "Saved",
-  },
-  {
-    imgURL: "/assets/icons/gallery-add.svg",
-    route: "/create-post",
-    label: "Create Post",
-  },
-];
-
-export const bottombarLinks = [
-  {
-    imgURL: "/assets/icons/home.svg",
-    route: "/",
-    label: "Home",
-  },
-  {
-    imgURL: "/assets/icons/wallpaper.svg",
-    route: "/explore",
-    label: "Explore",
-  },
-  {
-    imgURL: "/assets/icons/bookmark.svg",
-    route: "/saved",
-    label: "Saved",
-  },
-  {
-    imgURL: "/assets/icons/gallery-add.svg",
-    route: "/create-post",
-    label: "Create",
-  },
-];
-```
 
 </details>
 
@@ -729,36 +642,3 @@ export const multiFormatDateString = (timestamp: string = ""): string => {
   }
 };
 
-export const checkIsLiked = (likeList: string[], userId: string) => {
-  return likeList.includes(userId);
-};
-```
-
-</details>
-
-## <a name="links">🔗 Links</a>
-
-Assets used in the project are [here](https://drive.google.com/file/d/13_7FofRAC3wARqPtAVPi53QNJJRd5RH_/view?usp=sharing)
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js 14 Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
-
-<br />
-<br />
-
-**Accelerate your professional journey with the Expert Training program**
-
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
-</a>
-
-#
